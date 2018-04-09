@@ -29,8 +29,8 @@ using namespace std;
 void print_version(ifstream &in, ofstream &out)
 {
   string line;
-  if (getline(in, line))
-    out << regex_replace(line, regex("(\\s+)?JSONRPC_VERSION\\s+|(\\s+)?#.*"), string(""));
+  //if (getline(in, line))
+    //out << regex_replace(line, regex("(\\s+)?JSONRPC_VERSION\\s+|(\\s+)?#.*"), string(""));
 }
 
 void print_license(ifstream &in, ofstream &out)
